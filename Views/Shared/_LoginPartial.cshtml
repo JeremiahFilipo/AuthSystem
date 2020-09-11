@@ -4,6 +4,16 @@
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
+
+<style>
+    body {
+        background-image: url(https://gazette.education.govt.nz/assets/Uploads/education-gazette/Avondale%20College%20Sm02__FitMaxWzY4OCw1MDZd.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
 {
