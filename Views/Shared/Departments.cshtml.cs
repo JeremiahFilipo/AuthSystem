@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AuthSystem.Views.Shared
 {
-    public class DepaertmentsModel : PageModel
+    public class DepartmentsModel : PageModel
     {
         public void OnGet()
         {

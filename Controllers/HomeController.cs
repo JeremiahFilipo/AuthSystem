@@ -24,20 +24,15 @@ namespace AuthSystem.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
         public IActionResult Departments()
         {
             return View();
         }
-        public IActionResult Students()
+        public IActionResult Teachers()
         {
             return View();
         }
-        public IActionResult Teachers()
+        public IActionResult Students()
         {
             return View();
         }
